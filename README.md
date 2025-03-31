@@ -82,7 +82,8 @@ The following table summarizes the accuracy, precision, recall, and F1-score of 
 | Decision Tree                                                  | 80           | 86            | 78         | 81           |
 | CNN (Convolutional Neural Networks)                            | 86           | 88            | 89         | 88           |
 | LSTM (Long Short-Term Memory)                                  | 39           | 16            | 40         | 22           |
-| BERT (Bidirectional Encoder Representations from Transformers) | 88           | 84            | 85         | 84           |
+| BERT (Bidirectional Encoder Representations from Transformers) | 88           | 85            | 84         | 85           |
+| ROBERTA                                                        | 87           | 84            | 82         | 85           |
 
 Conclusion :  
 This research demonstrates how well NLP and ML models classify product prices. According to the analysis, BERT performs more accurately and precisely than other models. This solution enhances pricing strategy, user insights, and product search for e-commerce platforms by automating price-based classification.
