@@ -5,7 +5,8 @@ Course: NLP (Semester 6) - Pillai College of Engineering
 
 Project Overview : 
 
-This project focuses on classifying products into predefined price ranges—Low, Medium, and High—using Natural Language Processing (NLP) and Machine Learning (ML). Instead of relying on direct price data, the system analyzes product descriptions to predict price categories. By leveraging advanced NLP techniques and various ML models, this project aims to enhance product search and price-based decision-making for e-commerce platforms. Traditional price categorization relies on direct price data, which can be inconsistent due to discounts and currency variations. This system introduces a text-based classification approach, making product categorization more scalable and flexible. It benefits both consumers and retailers by improving search filtering, optimizing pricing strategies, and automating classification to reduce manual effort.
+The goal of this project is to combine machine learning (ML) and natural language processing (NLP) to classify products into three predetermined price ranges: low, medium, and high. The algorithm predicts price categories by analyzing product descriptions rather than using raw price data. The goal of this project is to improve product search and price-based decision-making for e-commerce platforms by utilizing a variety of ML models and sophisticated NLP approaches. Because of discounts and currency fluctuations, direct pricing data—which is the foundation of traditional price categorization—can be erratic. By using a text-based classification strategy, this system increases the scalability and flexibility of product categorization. By enhancing search filtering, optimizing pricing tactics, and automating classification to minimize manual labor, it helps both customers and retailers.
+
 
 You can learn more about the college by visiting the official website of [Pillai College of Engineering.](https://www.pce.ac.in/)
 
@@ -35,7 +36,7 @@ Product Price Classification
 
 Project Abstract:
 
-This project classifies products into Low, Medium, and High price categories using NLP and machine learning. It extracts insights from product descriptions and applies classification algorithms to predict price ranges. By utilizing ML, deep learning models, and advanced language models, the project evaluates various approaches for accuracy and effectiveness. Text preprocessing techniques like tokenization and word embeddings convert product descriptions into numerical representations. Models such as Logistic Regression, SVM, Random Forest, KNN , Naive Bayes and BERT are tested to determine the most effective classification method. This system automates price categorization, benefiting e-commerce platforms by improving product organization, aiding marketing strategies, and enhancing consumer insights.
+This project uses machine learning and natural language processing to classify products into three price ranges: low, medium, and high. In order to forecast price ranges, it uses categorization algorithms and gathers information from product descriptions. Through machine learning, deep learning models, and sophisticated language models, the study assesses several methods for precision and efficacy. Product descriptions are transformed into numerical representations using text preprocessing methods like tokenization and word embeddings. To find the best classification technique, models including Logistic Regression, SVM, Random Forest, KNN, Naive Bayes, and BERT are tested. By automating pricing classification, this method helps e-commerce platforms by facilitating marketing tactics, improving user insights, and organizing products better.
 
 Algorithms Used:
 
@@ -57,6 +58,8 @@ K-Nearest Neighbor (KNN)
 
 Recurrent Neural Networks (RNN)
 
+CNN (Convolutional Neural Network)
+
 Long Short-Term Memory (LSTM)
 
 Language Models:
@@ -74,16 +77,15 @@ The following table summarizes the accuracy, precision, recall, and F1-score of 
 | Logistic Regression                                            | 83           | 85            | 80         | 82           |
 | SVM (Support Vector Machine)                                   | 84           | 88            | 82         | 85           |
 | Random Forest                                                  | 86           | 92            | 85         | 88           |
-| KNN                                                            | 82           | 86            | 81         | 83           |
+| KNN                                                            | 82           | 86            | 84         | 83           |
 | Naive Bayes                                                    | 81           | 80            | 78         | 79           |
 | Decision Tree                                                  | 80           | 86            | 78         | 81           |
-| CNN (Convolutional Neural Networks)                            | 91.2         | 90.0          | 92.4       | 91.2         |
-| RNN (Recurrent Neural Networks)                                | 89.5         | 88.0          | 91.0       | 89.5         |
-| LSTM (Long Short-Term Memory)                                  | 92.0         | 91.1          | 93.0       | 92.0         |
-| BERT (Bidirectional Encoder Representations from Transformers) | 94.5         | 93.8          | 95.2       | 94.5         |
+| CNN (Convolutional Neural Networks)                            | 86           | 88            | 89         | 88           |
+| LSTM (Long Short-Term Memory)                                  | 39           | 16            | 40         | 22           |
+| BERT (Bidirectional Encoder Representations from Transformers) | 88           | 84            | 85         | 84           |
 
 Conclusion :  
-This project highlights the effectiveness of NLP and ML models in product price classification. The analysis shows that BERT outperforms other models in accuracy and precision. By automating price-based categorization, this system improves product search, pricing strategies, and consumer insights for e-commerce platforms.
+This research demonstrates how well NLP and ML models classify product prices. According to the analysis, BERT performs more accurately and precisely than other models. This solution enhances pricing strategy, user insights, and product search for e-commerce platforms by automating price-based classification.
 
 
 
